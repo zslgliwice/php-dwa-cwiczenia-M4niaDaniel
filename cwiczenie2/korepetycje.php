@@ -15,7 +15,16 @@
 				</header>
 				
 				<?php			
-							
+						if(!isset($_GET['name'])){
+							header("index.php");
+						}else{
+							$name = $_GET['name'];
+							$lessons = $_GET['lessons'];
+							$num = $_GET['num'];
+							$notes = $_GET['notes'];
+
+							echo $name . $lessons . $num . $notes;
+						}	
 				?>			
 			</article>		
 		</main>

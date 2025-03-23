@@ -12,9 +12,9 @@
 				<header>
 					<h1>Zamów korepetycje online</h1>
 				</header>
-				<form >
+				<form action="korepetycje.php" method="get" id="form1">
 					<input type="text" name="name" id="name" required placeholder="Wpisz imię...">
-					<select>
+					<select name="lessons" form="form1">
 						<option value="pol">Język Polski(50)</option>
 						<option value="his">Historia(60)</option>
 						<option value="wos">Wiedza O Społeczeństwie(45)</option>
