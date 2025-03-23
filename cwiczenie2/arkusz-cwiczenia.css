@@ -17,3 +17,6 @@ div
 {
 	margin: 20px 0px;
 }
+article{
+	display: flex;
+}
